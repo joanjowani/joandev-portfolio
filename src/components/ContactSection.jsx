@@ -212,4 +212,3 @@ export const ContactSection = () => {
   );
 };
 
-//ang kuwang na lang kay ang pag download sa cv, send sa link, and make send email

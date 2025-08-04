@@ -6,25 +6,17 @@ const projects = [
     title: "VisionAid Application (Thesis)",
     description:
       "An assistive technology mobile app for visually impaired users using OCR, computer vision, and NLP for real-time scene recognition and voice command interaction.",
-    image: "/projects/visionaid.png",
+    image: "./projects/visionaid.png",
     tags: ["Python", "TensorFlow", "OpenCV", "EasyOCR"],
     githubUrl: "https://github.com/joanjowani/visionaid.git",
   },
-  {
-    id: 2,
-    title: "POS/Ordering System",
-    description:
-      "Flutter-based POS system with real-time kitchen and cashier interfaces. Features Firebase authentication, Firestore integration, and PDF receipt generation.",
-    image: "/projects/pos-system.png",
-    tags: ["Flutter", "Dart", "Firebase", "Firestore"],
-    githubUrl: "https://github.com/joanjowani/pos.system.git",
-  },
+
   {
     id: 3,
     title: "Modern Developer Portfolio Website",
     description:
       "A responsive portfolio website built with React, TailwindCSS, and Vite, featuring dark mode, smooth animations, skills grid, project showcase, and contact form.",
-    image: "/projects/web-portfolio.png",
+    image: "./projects/web-portfolio.png", 
     tags: ["React", "TailwindCSS", "Vite", "Lucide Icons", "Radix UI"],
     githubUrl: "https://github.com/joanjowani/portfolio-website.git",
   },

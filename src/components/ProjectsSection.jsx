@@ -10,9 +10,8 @@ const projects = [
     tags: ["Python", "TensorFlow", "OpenCV", "EasyOCR"],
     githubUrl: "https://github.com/joanjowani/visionaid.git",
   },
-
   {
-    id: 3,
+    id: 2,
     title: "Modern Developer Portfolio Website",
     description:
       "A responsive portfolio website built with React, TailwindCSS, and Vite, featuring dark mode, smooth animations, skills grid, project showcase, and contact form.",
@@ -36,11 +35,11 @@ export const ProjectsSection = () => {
           clean code, practical problem-solving, and user-centered development.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
           {projects.map((project, key) => (
                 <div
                 key={key}
-                className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover relative"
+                className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover relative max-w-sm w-full"
                 >
 
               <div className="h-48 overflow-hidden">

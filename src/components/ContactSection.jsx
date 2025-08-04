@@ -132,7 +132,7 @@ export const ContactSection = () => {
                   <Linkedin className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                 </div>
               </a>
-              <a href="#" target="_blank" aria-label="Instagram">
+              <a href="https://www.instagram.com/joanb_orja/" target="_blank" aria-label="Instagram">
                 <div className="p-4 rounded-full bg-primary/10">
                 <Instagram className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                 </div>
